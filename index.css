@@ -1,0 +1,67 @@
+/*
+Theme Name: My CSS1
+Template: twentytwenty
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600&family=Roboto:wght@300&display=swap');
+
+#test-form {
+  font-family: 'Commissioner', sans-serif;
+  background-color: rgba(249, 244, 244, 1.0);
+	padding: 30px 30px 10px;
+	max-width: 400px;
+	margin: 100px auto 0;
+	border-radius: 5px;
+}
+
+#test-form p {
+	margin: 0 0 20px 0;
+	position: relative;
+}
+
+#test-form label {
+	display: block;
+	font-size: 25px;
+	margin: 0 0 .5em;
+	color: #333;
+}
+
+#test-form input, textarea{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	outline: none
+}
+
+#test-form input[type="text"] {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	font-size: 14px;
+	padding: 4px 10px;
+	border-radius: 5px;
+}
+
+
+
+#test-form textarea {
+  background: #fff;
+	border: 1px solid #e5e5e5;
+  font-size: 14px;
+	border-radius: 5px;
+  padding: 10px 15px;
+}
+
+#test-form span {
+  font-size: 14px;
+}
+
+.img-url {
+  font-size: 12px;
+  color:  rgba(227, 80, 86, 1.0);
+}
+
+@media only screen and (max-width: 425px) {
+  #test-form {
+    padding: 5px 5px 5px;
+  }
+}

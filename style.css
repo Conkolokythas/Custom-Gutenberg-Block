@@ -1,0 +1,90 @@
+/*
+Theme Name: My CSS
+Template: twentytwenty
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600&family=Roboto:wght@300&display=swap');
+
+
+.testimonial {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(249, 244, 244, 1.0);
+  line-height: 2;
+  border-radius: 5px;
+  margin-top: 100px!important;
+  box-shadow: 0 0 5px -2px hsla(0, 0%, 0%, 0.1);
+  color: rgba(22, 22, 22, 1.0);
+}
+.testimonial figure {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: -60px!important;
+  position: relative; 
+}
+
+.testimonial figure img {
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 3px solid rgba(227, 80, 86, 1.0);
+  box-shadow: 0 1px hsl(0deg 0% 0% / 10%);
+}
+
+.testimonial #main-testimonial {
+  text-align: center;
+  margin: 0 12% 20px 12%;
+}
+.testimonial #main-testimonial p {
+  margin: 15px 0 3rem;
+  position: relative;
+  z-index: 5;
+}
+.testimonial #main-testimonial p:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  opacity: 0.05;
+  background-position: 20% 20%, 80% 80%;
+  background-repeat: no-repeat;
+}
+
+.testimonial .test-name {
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 600;
+  font-size:  22px;
+  letter-spacing: 0.05rem;
+}
+
+.testimonial .test-position {
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 600;
+  font-size:  16px;
+  letter-spacing: 0.05rem;
+}
+
+#main-testimonial div {
+  width: 100%;
+}
+
+#main-testimonial p {
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  
+}
+
+@media only screen and (max-width: 426px) {
+  .testimonial #main-testimonial {
+    margin: 0 5% 20px 5%;
+}
+}
